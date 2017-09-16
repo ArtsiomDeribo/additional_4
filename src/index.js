@@ -1,4 +1,5 @@
-var num1 = [];
+module.exports = function multiply(first, second) {
+  var num1 = [];
   var num2 = [];
   var num3 = [];
   var cash = 0;
@@ -40,3 +41,4 @@ var num1 = [];
     }
   }
   return solution.reverse().join('');
+}
